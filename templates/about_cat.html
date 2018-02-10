@@ -1,0 +1,14 @@
+{% extends 'base.html'%}
+{% block content %}
+<div class="row">
+    <div class="col-md-7">
+        <h2 class="col-md-">{{cat.name}}</h2>
+    </div>
+    <div class="col-md-5">
+        <img class="img-fluid" src="{{cat.image_source}}" alt="image for {{cat.name}}"></img>
+    </div>
+    <div class="col-md-12">
+        <p>{{cat.description}}</p>
+    </div>
+</div>
+{% endblock %}

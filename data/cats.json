@@ -1,0 +1,37 @@
+[
+    {
+        "name":"Maine Coon",
+        "description": "The Maine Coon is one of the largest domesticated breeds of cat. It has a distinctive physical appearance and valuable hunting skills. It is one of the oldest natural breeds in North America, specifically native to the state of Maine, where it is the official state cat.No records of the Maine Coon's exact origins and date of introduction to the United States  exist, so several competing hypotheses have been suggested. The breed was popular in cat shows in the late 19th century, but its existence became threatened when long-haired breeds from overseas were introduced in the early 20th century. The Maine Coon has since made a comeback and is now one of the more popular cat breeds in the world.",
+        "image_source":"http://cdn1-www.cattime.com/assets/uploads/gallery/maine-coon-cats-and-kittens/maine-coon-cats-and-kittens-1.jpg",
+        "url": "main-coon"
+    },
+    
+    {
+        "name":"British Shorthair",
+        "description":"The British Shorthair is the pedigreed version of the traditional British domestic cat, with a distinctively chunky body, dense coat and broad face. The most familiar color variant is the 'British Blue', a solid blue-gray with copper eyes, medium tail, but the breed has also been developed in a wide range of other colours and patterns, including tabby and colorpoint.",
+        "image_source":"http://allaboutcat.org/wp-content/uploads/2015/12/British-cat-21.jpg",
+        "url": "british-shorthair"
+    },
+    
+    {
+        "name":"Bengal Cat",
+        "description":"The Bengal is a domestic cat breed developed to look like exotic jungle cats such as leopards, ocelots, margays and clouded leopards. Bengal cats were developed by selective breeding from hybrids of the Asian leopard cat (ALC), Prionailurus bengalensis bengalensis, with domestic cat, backcrossed to domestic cats, with the goal of creating a confident, healthy, and friendly cat with a highly contrasted and vividly marked coat.",
+        "image_source":"https://s-media-cache-ak0.pinimg.com/originals/47/6e/eb/476eebb060e0b51b095971e8b23f0e2a.jpg",
+        "url": "bengal"
+    },
+    
+    {
+        "name":"Persian Cat",
+        "description":"The Persian cat (Persian: گربه ایرانی Gorbe Irâni) is a long-haired breed of cat characterized by its round face and short muzzle. It is also known as the Persian Longhair. In the Middle East they are widely known as Iranian cat and in Iran they are known as Shirazi cat. The first documented ancestors of the Persian were imported into Italy from Iran (Persia) around 1620.[1] The exact history of the Persian cat does seem to be a bit of a mystery but many of these long-haired cats were seen in hieroglyphics. The story has it that these long-haired cats were then imported into Europe as their popularity grew and breeding took place in Italy and France",
+        "image_source":"http://cdn2-www.cattime.com/assets/uploads/gallery/persian-cats-and-kittens/persian-cats-and-kittens-10.jpg",
+        "url": "persian"
+    },
+    
+    {
+        "name":"Ragdoll",
+        "description":"The Ragdoll is a cat breed with blue eyes and a distinct colourpoint coat. It is a large and muscular semi-longhair cat with a soft and silky coat. Like all long haired cats, Ragdolls need grooming to ensure their fur does not mat. Developed by American breeder Ann Baker in the 1960s, it is best known for its docile and placid temperament and affectionate nature. The name 'Ragdoll' is derived from the tendency of individuals from the original breeding stock to go limp and relaxed when picked up. Particularly popular in both the United Kingdom and the breed's native United States, ragdoll cats often are known as 'dog-like cats' or 'puppy-like cats' due to behaviors such as their tendency to follow people around, their ease at being physically handled, and their relative lack of aggression toward other pets.",
+        "image_source":"https://s-media-cache-ak0.pinimg.com/originals/8e/0d/00/8e0d00b767727568601e0a9a65dfc219.jpg",
+        "url": "ragdoll"
+    }
+    
+    ]

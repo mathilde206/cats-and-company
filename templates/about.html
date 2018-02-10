@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h2>{{ page_title }}</h2>
+
+<p>The domestic cat (Felis silvestris catus or Felis catus) is a small, typically furry, carnivorous mammal. They are often called house cats when kept as indoor pets or simply cats when there is no need to distinguish them from other felids and felines. They are often valued by humans for companionship and for their ability to hunt vermin. There are more than seventy cat breeds recognized by various cat registries.</p>
+
+{% for cat in cats_data %}
+    <hr>
+    <div class='row featurette'>
+        {% if loop.index % 2 == 0 %}
+            <div class='col-md-7'>
+                <h3><a href="/about/{{ cat.url }}"> {{ cat.name }} </a></h3>
+                <p>{{ cat.description }}</p>
+            </div>
+            <div class='col-md-5'>
+                <img class='img-fluid' src="{{cat.image_source}}" alt="image for {{cat.name}}"></img>
+            </div>
+        {% else %}
+            <div class='col-md-5'>
+                <img class='img-fluid' src="{{cat.image_source}}" alt="image for {{cat.name}}"></img>
+            </div>
+            <div class='col-md-7'>
+                <h3><a href="/about/{{ cat.url }}"> {{ cat.name }} </a></h3>
+                <p>{{ cat.description }}</p>
+            </div>
+        {% endif %}
+    </div>    
+{% endfor %}
+
+{% endblock %}
